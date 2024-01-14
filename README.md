@@ -28,6 +28,8 @@ Unflipped training using panoramic radiograph images of patients aged between 15
 
 * **Transfer with *Gender* and Fine-tune with Duo**
   * [Drive: Model --> Unflipped_Classification_Gender(15-23)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
+  * [Colab (train round24)](https://colab.research.google.com/drive/1IWbPIBj54gFIUorSzhH9h2reZbkuWS0M#scrollTo=RooqSdBc7QHC)
+  * [Colab (predict round24)](https://colab.research.google.com/drive/129Ao2WLcP2PFBSo9-ZBjJSg_ex8I3SjL?usp=sharing)
 
 
 ## Results (15-23 yrs)
