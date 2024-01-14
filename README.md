@@ -15,6 +15,21 @@ Unflipped training using panoramic radiograph images of patients aged between 15
 |  23   |      54       |       58        |      112     |      209     |
 |**Sum**|    **xxx**    |    **xxxxx**    |   **xxxxx**  |   **xxxxx**  |
 
+## Google Drive
+* **Transfer and Fine-tune with Duo**
+  * [Drive: Model --> Unflipped_Multi_task(15-23))](https://drive.google.com/drive/u/0/folders/1_hdKLDWBX_E0QvL7J44P0DTG6xRfCxjW)
+  * [Colab (train round24)](https://colab.research.google.com/drive/1cGdcc2TG4UnFWl8vpL8IIaQ4D_BI_YqA?usp=sharing)
+  * [Colab (predict round24)](https://colab.research.google.com/drive/1GrPRzo9qlIRBH-3XHlfztdwYy_yjGOgW?usp=sharing)
+
+* **Transfer with *Age* and Fine-tune with Duo**
+  * [Drive: Model --> Unflipped_Regress_Age(15-23)]()
+  * [Colab (train round24)]()
+  * [Colab (predict round24)]()
+
+* **Transfer with *Gender* and Fine-tune with Duo**
+  * [Drive: Model --> Unflipped_Classification_Gender(15-23)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
+
+
 ## Results (15-23 yrs)
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |   ROC  | Epochs |
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|:------:|
