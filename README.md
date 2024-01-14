@@ -22,12 +22,12 @@ Unflipped training using panoramic radiograph images of patients aged between 15
   * [Colab (predict round24)](https://colab.research.google.com/drive/1GrPRzo9qlIRBH-3XHlfztdwYy_yjGOgW?usp=sharing)
 
 * **Transfer with *Age* and Fine-tune with Duo**
-  * [Drive: Model --> Unflipped_Regress_Age(15-23)]()
-  * [Colab (train round24)]()
-  * [Colab (predict round24)]()
+  * [Drive: Model --> Unflipped_Regress_Age(15-23)](https://drive.google.com/drive/u/0/folders/13Mn7BNsUTSlhWIGpcAOeQl-PnGCI5-kH)
+  * [Colab (train round26)]()
+  * [Colab (predict round26)]()
 
 * **Transfer with *Gender* and Fine-tune with Duo**
-  * [Drive: Model --> Unflipped_Classification_Gender(15-23)](https://drive.google.com/drive/u/0/folders/1gSnNTp_DwS-gacctGDKAy0MGtKOMxsEk)
+  * [Drive: Model --> Unflipped_Classification_Gender(15-23)]((https://drive.google.com/drive/u/0/folders/1q20GWa1fLEC6bYqDLv8zE-KKoi5xjw86)
   * [Colab (train round24)](https://colab.research.google.com/drive/1IWbPIBj54gFIUorSzhH9h2reZbkuWS0M#scrollTo=RooqSdBc7QHC)
   * [Colab (predict round24)](https://colab.research.google.com/drive/129Ao2WLcP2PFBSo9-ZBjJSg_ex8I3SjL?usp=sharing)
 
@@ -37,8 +37,8 @@ Unflipped training using panoramic radiograph images of patients aged between 15
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|:------:|
 |         Duo         |      -       |     2.13    |      84.22%       |   32.29%   |  0.95  |  4,000 |
 |         Duo         |      Duo     |     1.91    |      95.11%       |   45.81%   |  0.99  |  3,250 |
-|         Age         |      -       |     2.31    |        -          |   77.80%   |  |3,250 |
-|         Age         |   Duo(26)    |     1.67    |      86.70%       |   88.45%   |  |3,250 |
-|        Gender       |      -       |      -      |      76.44%       |     -      |  0.92  | 2,250 |
-|        Gender       |     Duo      |     1.90    |      92.67%       |   46.47%   |   0.98  |4,250 |
+|         Age         |      -       |     2.14    |        -          |   31.53%   |   -    |  3,500 |
+|         Age         |     Duo      |     1.95    |      95.11%       |   43.16%   |  0.99  |  3,250 |
+|        Gender       |      -       |      -      |      76.44%       |     -      |  0.92  |  2,250 |
+|        Gender       |     Duo      |     1.90    |      92.67%       |   46.47%   |  0.98  |  4,250 |
 
