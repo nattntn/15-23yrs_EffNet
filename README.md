@@ -20,6 +20,7 @@ Unflipped training using panoramic radiograph images of patients aged between 15
   * [Drive: Model --> Unflipped_Multi_task(15-23))](https://drive.google.com/drive/u/0/folders/1_hdKLDWBX_E0QvL7J44P0DTG6xRfCxjW)
   * [Colab (train round24)](https://colab.research.google.com/drive/1cGdcc2TG4UnFWl8vpL8IIaQ4D_BI_YqA?usp=sharing)
   * [Colab (predict round24)](https://colab.research.google.com/drive/1GrPRzo9qlIRBH-3XHlfztdwYy_yjGOgW?usp=sharing)
+  * [Colab (predict round25)](https://colab.research.google.com/drive/1A0EwGlKg57_QkoysEft-3kcP7IB3wNap#scrollTo=Yplq8INdxPeV):point_left:
 
 * **Transfer with *Age* and Fine-tune with Duo**
   * [Drive: Model --> Unflipped_Regress_Age(15-23)](https://drive.google.com/drive/u/0/folders/13Mn7BNsUTSlhWIGpcAOeQl-PnGCI5-kH)
@@ -36,9 +37,10 @@ Unflipped training using panoramic radiograph images of patients aged between 15
 |  Transfer learning  | Fine-tuning  | Age (RMSE)  | Gender(Accuracy)  |  Age (R^2) |   ROC  | Epochs |
 | :------------------:|:------------:|:-----------:|:-----------------:|:----------:|:------:|:------:|
 |         Duo         |      -       |     2.13    |      84.22%       |   32.29%   |  0.95  |  4,000 |
-|         Duo         |      Duo     |     1.91    |    **95.11%**     |   45.81%   |**0.99**|  3,250 |
+|         Duo         |    Duo(24)   |     1.91    |    **95.11%**     |   45.81%   |**0.99**|  3,250 |
+|         Duo         |    Duo(25)   |  **1.87**   |      94.67%       | **48.13%** |**0.99**|  3,750 |
 |         Age         |      -       |     2.14    |        -          |   31.53%   |   -    |  3,500 |
 |         Age         |     Duo      |     1.95    |    **95.11%**     |   43.16%   |**0.99**|  3,250 |
 |        Gender       |      -       |      -      |      76.44%       |     -      |  0.92  |  2,250 |
-|        Gender       |     Duo      |   **1.90**  |      92.67%       | **46.47%** |  0.98  |  4,250 |
+|        Gender       |     Duo      |     1.90    |      92.67%       |   46.47%   |  0.98  |  4,250 |
 
